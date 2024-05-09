@@ -1,33 +1,61 @@
+
 body {
     background-color: navy;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .cat {
     background-color: plum;
     margin: 0.5em;
     padding: 1em;
-    border-radius:1em;
+    border-radius: 1em;
     border: 1px solid blueviolet;
-    flex : 1;
+    flex: 1;
 }
-@media (min-width : 960px) {
+
+@media (min-width: 960px) {
     .cats {
         display: flex;
     }
 }
-fieldset{
+
+fieldset {
     margin: 1em;
-    border: o;
+    border: 0;
 }
-button{
-    padding :1em;
+
+button {
+    padding: 1em;
     border: 3px solid;
     border-radius: 0.5em;
 }
-input{
+
+input {
     padding: 1em;
-<<<<<<< HEAD
 }
-=======
+
+@media (max-width: 959px) {
+    .cat {
+        width: 100%;
+    }
 }
->>>>>>> 18117d9554e0c6b2633a76871c09c4a952d18d65
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .cat {
+        padding: 0.5em;
+    }
+
+    button {
+        padding: 0.5em;
+    }
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 12px;
+    }
+}
