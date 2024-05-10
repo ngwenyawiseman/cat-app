@@ -10,7 +10,7 @@ body {
     border: 1px solid #2EC4B6;
     flex: 1;
 }
-@media (min-width : 960px){
+@media (min-width : 1200px){
     .cats{
         display: flex;
     }
